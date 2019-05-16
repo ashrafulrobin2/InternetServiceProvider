@@ -23,7 +23,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="50dp"
-            android:text="App Name"
+            android:text="ReignICT"
             android:textColor="@android:color/white"
             android:textSize="30sp"
             android:textStyle="bold" />
@@ -40,11 +40,24 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:gravity="center"
-            android:text="Application Title"
+            android:text="@string/fast_smart"
             android:textColor="@android:color/white"
             android:textSize="15sp"
             android:textStyle="bold" />
+
+        <ProgressBar
+            android:id="@+id/simpleProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+
+            android:layout_gravity="center"
+            android:visibility="invisible"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="181dp"
+            tools:layout_editor_absoluteY="159dp" />
     </LinearLayout>
+
 
     <FrameLayout
         android:layout_width="291dp"
@@ -100,8 +113,9 @@
 
             <Button
                 android:id="@+id/button2"
-                android:layout_width="250dp"
+                android:layout_width="200dp"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:layout_margin="15dp"
                 android:background="@drawable/buttoon_pressed"
                 android:text="Login"
@@ -172,10 +186,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Sign Up"
                 android:layout_marginLeft="10dp"
+                android:text="Sign Up"
                 android:textColor="#138BE1"
-                android:textSize="20sp" />
+                android:textSize="25sp" />
 
 
         </LinearLayout>
